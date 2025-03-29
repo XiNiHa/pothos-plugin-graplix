@@ -1,0 +1,47 @@
+{
+	"name": "pothos-plugin-graplix",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Pothos plugin for implementing auth with Graplix",
+	"author": "XiNiHa <me@xiniha.dev>",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			},
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			}
+		}
+	},
+	"scripts": {
+		"prepare": "lefthook install",
+		"build": "tsdown",
+		"check": "biome check && tsc",
+		"fix": "biome check --fix"
+	},
+	"peerDependencies": {
+		"@pothos/core": "^4",
+		"graphql": "^16",
+		"graplix": "^0.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.0-beta.1",
+		"@pothos/core": "catalog:",
+		"@types/node": "catalog:",
+		"graphql": "catalog:",
+		"graplix": "catalog:",
+		"lefthook": "^1.11.5",
+		"publint": "^0.3.9",
+		"tsdown": "^0.6.10",
+		"typescript": "catalog:"
+	},
+	"files": [
+		"dist"
+	],
+	"packageManager": "pnpm@10.6.2"
+}

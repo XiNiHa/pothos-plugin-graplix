@@ -1,0 +1,9 @@
+packages:
+  - example
+
+catalog:
+  "@pothos/core": "^4.5.1"
+  "@types/node": "^22.13.14"
+  "graphql": "^16.10.0"
+  "graplix": "^0.1.2"
+  "typescript": "^5.8.2"

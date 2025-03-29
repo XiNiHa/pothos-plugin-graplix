@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "ES2022",
+		"moduleResolution": "Bundler",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"declaration": true,
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"moduleDetection": "force",
+		"verbatimModuleSyntax": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"erasableSyntaxOnly": true,
+		"isolatedDeclarations": true,
+		"lib": ["es2022"]
+	},
+	"exclude": ["dist"]
+}

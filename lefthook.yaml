@@ -1,0 +1,5 @@
+pre-commit:
+  commands:
+    check:
+      run: pnpm fix --no-errors-on-unmatched {staged_files}
+      stage_fixed: true

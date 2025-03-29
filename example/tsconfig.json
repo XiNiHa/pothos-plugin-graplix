@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"noEmit": true,
+		"allowImportingTsExtensions": true,
+		"isolatedModules": true,
+		"moduleDetection": "force",
+		"verbatimModuleSyntax": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"erasableSyntaxOnly": true,
+		"lib": ["es2022"]
+	},
+	"exclude": ["dist"]
+}
