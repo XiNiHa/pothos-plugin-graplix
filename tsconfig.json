@@ -18,5 +18,5 @@
 		"isolatedDeclarations": true,
 		"lib": ["es2022"]
 	},
-	"exclude": ["dist"]
+	"exclude": ["dist", "example"]
 }
